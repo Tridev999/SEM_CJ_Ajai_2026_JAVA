@@ -21,7 +21,7 @@ public class Basic {
     // Static Variable (belongs to class)
     static int staticNumber = 100;
 
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
 
         System.out.println("===== JAVA UNIT 1 DEMO =====");
 
@@ -33,7 +33,7 @@ public class Basic {
         double salary = 25000.75;
         char grade = 'A';
         boolean isPassed = true;
-        String name = "Student";
+        String1 name = "Student";
 
         System.out.println("\n--- Variables ---");
         System.out.println("Name: " + name);
@@ -114,3 +114,25 @@ public class Basic {
         sc.close();
     }
 }
+
+
+
+// // Import the HashMap class
+// import java.util.HashMap;
+
+// public class Main {
+//   public static void main(String[] args) {
+
+//     // Create a HashMap object called people
+//     HashMap<String, Integer> people = new HashMap<String, Integer>();
+
+//     // Add keys and values (Name, Age)
+//     people.put("John", 32);
+//     people.put("Steve", 30);
+//     people.put("Angie", 33);
+
+//     for (String i : people.keySet()) {
+//       System.out.println("key: " + i + " value: " + people.get(i));
+//     }
+//   }
+// }
